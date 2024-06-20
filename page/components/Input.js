@@ -6,15 +6,17 @@ const Input = ({onChangeText, todoText}) => {
     onChangeText(text);
   };
   return (
-    <>
-      <TextInput
-        style={styles.input}
-        onChangeText={onChangeInput}
-        maxLength={20}
-        autoCapitalize="none"
-        value={todoText}
-      />
-    </>
+    <View>
+      <>
+        <TextInput
+          style={styles.input}
+          onChangeText={onChangeInput}
+          autoCapitalize="none"
+          maxLength={30}
+          value={todoText}
+        />
+      </>
+    </View>
   );
 };
 
@@ -22,8 +24,8 @@ export default Input;
 
 const styles = StyleSheet.create({
   input: {
+    backgroundColor: 'gainsboro',
     width: '100%',
-    backgroundColor: '#cecece',
     borderRadius: 10,
     paddingHorizontal: 16,
   },

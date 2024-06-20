@@ -3,7 +3,7 @@ import React from 'react';
 
 const IconButton = ({icon, onPress}) => {
   return (
-    <TouchableOpacity onPress={onPress} style={styles.touchWrap}>
+    <TouchableOpacity onPress={onPress} style={styles.touchPad}>
       <View>
         <Image source={icon} style={{width: 30, height: 30}} />
       </View>
@@ -14,7 +14,7 @@ const IconButton = ({icon, onPress}) => {
 export default IconButton;
 
 const styles = StyleSheet.create({
-  touchWrap: {
+  touchPad: {
     width: 30,
     height: 30,
     margin: 5,

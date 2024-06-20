@@ -1,13 +1,12 @@
-import Check from '../assets/image/check.png';
-import Checked from '../assets/image/checked.png';
-import Edit from '../assets/image/edit.png';
-import Delete from '../assets/image/delete.png';
+import Checking from '../assets/image/checking.png';
+import UnChecking from '../assets/image/unchecking.png';
+import Xiugai from '../assets/image/xiugai.png';
+import Trash from '../assets/image/trash.png';
 
 const Icons = {
-  checked: Checked,
-  check: Check,
-  edit: Edit,
-  delete: Delete,
+  checking: Checking,
+  unchecking: UnChecking,
+  xiugai: Xiugai,
+  trash: Trash,
 };
-
 export default Icons;
